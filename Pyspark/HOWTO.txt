@@ -1,0 +1,13 @@
+http://deelesh.github.io/hello-pyspark-world.html
+To run the Word Count program,
+
+    Open a terminal window such as a Windows Command Prompt.
+
+    Change into your SPARK_HOME directory.
+
+    Run the spark-submit utility and pass the full path to your Word Count program file as an argument.
+
+For example, on my Windows laptop I used the following commands to run the Word Count program.
+
+    cd %SPARK_HOME%
+    bin\spark-submit c:\code\pyspark-hello-world.py
