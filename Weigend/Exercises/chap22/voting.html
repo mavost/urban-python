@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="charset=UTF-8" />
+<head> 
+    <title> Voting page </title>
+</head>
+<body>
+<h2>Voting page</h2>
+<h3>Question: Do you like cats or dogs?</h3>
+<!-- "get" to openly send query strings, "post" to send data hidden -->
+<form action="http://localhost:8100/cgi-bin/vote.py" method="get">
+<!-- Radio buttons -->
+                 <input type="radio" name="decision" value="Cats"> cats <br>
+                 <input type="radio" name="decision" value="Dogs" checked="checked"> dogs
+<!-- Submit button -->
+                 <input type="submit" value="Vote">
+</form>
+<br><br>
+<a href="./index.html">back...</a>
+</body>
+</html>

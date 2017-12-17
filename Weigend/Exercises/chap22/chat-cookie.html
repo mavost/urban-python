@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="content-type" content="charset=UTF-8" />
+<body>
+<h2>CGI Chat room using cookies</h2>
+Welcome! Please choose an avatar name to proceed...<br><br>
+
+<!-- "get" to openly send query strings, "post" to send data hidden -->
+<form action="http://localhost:8100/cgi-bin/chat-cookie.py" method="post" >
+<!-- Open entries -->
+   Avatar name:  <input type="text" name="name" maxlength=20 size=15>
+<!-- Hidden variables, "post"-method to send data hidden -->
+                 <input type="hidden" name="message" value="... has joined the chat.">
+<!-- Submit button -->
+                 <input type="submit" value="Login">
+</form>
+<br><br>
+<a href="./index.html">back...</a>
+</body>
+</html>
