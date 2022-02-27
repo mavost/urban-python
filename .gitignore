@@ -3,3 +3,6 @@
 
 # ignore notebook checkpoint folders
 .ipynb_checkpoints
+
+# vscode config
+.vscode
