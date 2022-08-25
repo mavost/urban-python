@@ -6,6 +6,3 @@
 
 # vscode config
 .vscode
-
-# pycache
-__pycache__/
