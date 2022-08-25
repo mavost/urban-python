@@ -1,8 +1,0 @@
-# ignore all logs
-*.log
-
-# ignore notebook checkpoint folders
-.ipynb_checkpoints
-
-# vscode config
-.vscode
