@@ -115,7 +115,7 @@
 # Jupyter notebook
 # https://zhauniarovich.com/post/2020/2020-10-clearing-jupyter-output-p3/
 # see, .git/config for filter settings
-*.ipynb filter=jupyternotebook
+#*.ipynb filter=jupyternotebook
 
 # Note: .db, .p, and .pkl files are associated
 # with the python modules ``pickle``, ``dbm.*``,
